@@ -22,6 +22,15 @@ DEFAULT_OUT = ROOT / "docs" / "data"
 MAX_LEADS = 500
 MAX_AGE_DAYS = 60
 
+# Portale z darmowym dostępem do danych kontaktowych zleceniodawcy.
+# Oferteo pobiera opłatę (punkty) za odblokowanie kontaktu.
+CONTACT_FREE = {
+    "bzp": True,
+    "epropublico": True,
+    "bip_kk": True,
+    "oferteo": False,
+}
+
 
 def log(message: str) -> None:
     stamp = datetime.now().strftime("%H:%M:%S")
@@ -91,6 +100,8 @@ def build_lead(raw: dict) -> dict:
     lead.setdefault("published_at", None)
     lead.setdefault("deadline", None)
     lead.setdefault("budget", None)
+    lead.setdefault("contact_free", CONTACT_FREE.get(lead.get("source", ""), True))
+    lead.setdefault("contact_label", "Kontakt darmowy" if lead.get("contact_free") else "Kontakt płatny")
     return lead
 
 
@@ -177,6 +188,9 @@ def main(argv: list[str] | None = None) -> int:
     scored: list[dict] = []
     max_distance = float(cfg.get("max_distance_km", 40))
     for lead in candidates:
+        if lead.get("contact_free") is None:
+            lead["contact_free"] = CONTACT_FREE.get(lead.get("source", ""), True)
+        lead.setdefault("contact_label", "Kontakt darmowy" if lead.get("contact_free") else "Kontakt płatny")
         known_first_seen = seen["ids"].get(lead["id"])
         lead["is_new"] = known_first_seen is None
         lead["first_seen"] = known_first_seen or now.isoformat()
@@ -209,7 +223,7 @@ def main(argv: list[str] | None = None) -> int:
 
     # Deduplikacja: ta sama inwestycja z BZP i e-ProPublico.
     unique: dict[tuple[str, str, str], dict] = {}
-    for lead in sorted(scored, key=lambda item: item.get("score", 0), reverse=True):
+    for lead in sorted(scored, key=lambda item: (item.get("contact_free", False), item.get("score", 0)), reverse=True):
         key = title_key(lead)
         if key in unique:
             existing = unique[key]
@@ -224,6 +238,7 @@ def main(argv: list[str] | None = None) -> int:
     leads = list(unique.values())
     leads.sort(
         key=lambda item: (
+            item.get("contact_free", False),
             item.get("score", 0),
             parse_dt(item.get("first_seen")) or now,
         ),
@@ -272,7 +287,7 @@ def main(argv: list[str] | None = None) -> int:
             for lead in leads
             if lead.get("is_new") and lead.get("score", 0) >= int(cfg.get("notify_min_score", 35))
         ]
-        fresh.sort(key=lambda item: item.get("score", 0), reverse=True)
+        fresh.sort(key=lambda item: (item.get("contact_free", False), item.get("score", 0)), reverse=True)
         limit = int(cfg.get("notify_max_per_run", 4))
         for lead in fresh[:limit]:
             ok, info = notify.notify_lead(cfg.get("ntfy_topic", ""), lead, app_url)

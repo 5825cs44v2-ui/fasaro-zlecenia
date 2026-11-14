@@ -10,6 +10,7 @@
     filter: "fasaro_filter_v1",
     sort: "fasaro_sort_v1",
     onlyNew: "fasaro_onlynew_v1",
+    onlyFree: "fasaro_onlyfree_v1",
     hint: "fasaro_hint_v1",
   };
 
@@ -30,6 +31,7 @@
     filter: localStorage.getItem(KEYS.filter) || "all",
     sort: localStorage.getItem(KEYS.sort) || "score",
     onlyNew: localStorage.getItem(KEYS.onlyNew) === "1",
+    onlyFree: localStorage.getItem(KEYS.onlyFree) === "1",
     query: "",
     read: new Set(readList(KEYS.read)),
     hidden: new Set(readList(KEYS.hidden)),
@@ -82,6 +84,10 @@
 
   function isTender(lead) {
     return !!TENDER_SOURCES[lead.source];
+  }
+
+  function contactFree(lead) {
+    return !lead || lead.contact_free !== false;
   }
 
   function distanceText(lead) {
@@ -224,6 +230,7 @@
   function matches(lead) {
     if (state.hidden.has(lead.id)) return false;
     if (state.onlyNew && !(lead.is_new && !state.read.has(lead.id))) return false;
+    if (state.onlyFree && !contactFree(lead)) return false;
 
     if (state.filter === "tender") {
       if (!isTender(lead)) return false;
@@ -258,6 +265,9 @@
       });
     } else {
       list.sort(function (a, b) {
+        var af = contactFree(a) ? 1 : 0;
+        var bf = contactFree(b) ? 1 : 0;
+        if (bf !== af) return bf - af;
         return (b.score || 0) - (a.score || 0);
       });
     }
@@ -331,6 +341,7 @@
       el.listTitle.textContent = "Zlecenia";
       el.listFootnote.textContent = "";
       updateNewLabel();
+    updateFreeLabel();
       return;
     }
 
@@ -341,6 +352,7 @@
       el.listTitle.textContent = "Zlecenia";
       el.listFootnote.textContent = "";
       updateNewLabel();
+    updateFreeLabel();
       return;
     }
 
@@ -382,6 +394,7 @@
     }
 
     updateNewLabel();
+    updateFreeLabel();
     renderFootnote(list.length);
     renderStatus();
   }
@@ -447,6 +460,11 @@
     service.className = "badge badge--service";
     service.textContent = lead.service_label || "Budowlane";
     top.appendChild(service);
+
+    var contactBadge = document.createElement("span");
+    contactBadge.className = "badge " + (contactFree(lead) ? "badge--contact-free" : "badge--contact-paid");
+    contactBadge.textContent = contactFree(lead) ? "Kontakt darmowy" : "Kontakt płatny";
+    top.appendChild(contactBadge);
 
     card.appendChild(top);
 
@@ -514,6 +532,15 @@
     el.onlyNewLabel.textContent = unread > 0 ? "Tylko nowe (" + unread + ")" : "Tylko nowe";
     el.onlyNew.classList.toggle("toggle--on", state.onlyNew);
     el.onlyNew.setAttribute("aria-pressed", state.onlyNew ? "true" : "false");
+  }
+
+  function updateFreeLabel() {
+    var freeCount = state.leads.filter(function (lead) {
+      return !state.hidden.has(lead.id) && contactFree(lead);
+    }).length;
+    el.onlyFreeLabel.textContent = "Darmowy kontakt (" + freeCount + ")";
+    el.onlyFree.classList.toggle("toggle--on", state.onlyFree);
+    el.onlyFree.setAttribute("aria-pressed", state.onlyFree ? "true" : "false");
   }
 
   function renderFootnote(shown) {
@@ -659,6 +686,7 @@
       addRow(details, "Opublikowano", published.toLocaleDateString("pl-PL", { day: "2-digit", month: "2-digit", year: "numeric" }));
     }
     addRow(details, "Źródło", lead.source_label || "—");
+    addRow(details, "Kontakt", contactFree(lead) ? "Darmowy (dane w ogłoszeniu)" : "Płatny — Oferteo pobiera opłatę za kontakt");
     if (Array.isArray(lead.also) && lead.also.length) {
       addRow(details, "Także w", lead.also.join(", "));
     }
@@ -775,6 +803,7 @@
     if (deadline) lines.push(deadline.text);
     if (lead.organization) lines.push("Zamawiający: " + lead.organization);
     lines.push("Źródło: " + (lead.source_label || ""));
+    lines.push("Kontakt: " + (contactFree(lead) ? "darmowy" : "płatny (Oferteo)"));
     if (lead.url) lines.push(lead.url);
     return lines.join("\n");
   }
@@ -809,6 +838,12 @@
     el.onlyNew.addEventListener("click", function () {
       state.onlyNew = !state.onlyNew;
       localStorage.setItem(KEYS.onlyNew, state.onlyNew ? "1" : "0");
+      renderList();
+    });
+
+    el.onlyFree.addEventListener("click", function () {
+      state.onlyFree = !state.onlyFree;
+      localStorage.setItem(KEYS.onlyFree, state.onlyFree ? "1" : "0");
       renderList();
     });
 
@@ -896,6 +931,8 @@
       chips: document.getElementById("chips"),
       onlyNew: document.getElementById("onlyNew"),
       onlyNewLabel: document.getElementById("onlyNewLabel"),
+      onlyFree: document.getElementById("onlyFree"),
+      onlyFreeLabel: document.getElementById("onlyFreeLabel"),
       sortSelect: document.getElementById("sortSelect"),
       installHint: document.getElementById("installHint"),
       list: document.getElementById("list"),

@@ -58,6 +58,7 @@ def notify_lead(topic: str, lead: dict, app_url: str = "") -> tuple[bool, str]:
         f"Lokalizacja: {place_line}",
         f"Trafność: {lead.get('score', 0)}/100 ({lead.get('score_label', '')})",
         f"Źródło: {lead.get('source_label', '')}",
+        f"Kontakt: {'darmowy (dane w ogłoszeniu)' if lead.get('contact_free') else 'płatny — Oferteo'}",
     ]
     deadline = format_deadline(lead.get("deadline"))
     if deadline:
