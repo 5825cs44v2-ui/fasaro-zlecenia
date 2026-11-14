@@ -1,0 +1,41 @@
+{
+  "app_name": "FASARO Zlecenia",
+  "city": "Kędzierzyn-Koźle",
+  "radius_km": 35,
+  "max_distance_km": 40,
+  "min_score": 18,
+  "notify_min_score": 35,
+  "notify_max_per_run": 4,
+  "ntfy_topic": "fasaro-zlecenia-kk-4b7e2d91",
+  "app_url": "",
+  "sources": {
+    "bzp": {
+      "enabled": true,
+      "days": 3,
+      "first_run_days": 14
+    },
+    "epropublico": {
+      "enabled": true
+    },
+    "bip_kk": {
+      "enabled": true
+    },
+    "oferteo": {
+      "enabled": true,
+      "categories": [
+        "zlecenia-na-elewacje-ocieplenia-izolacje",
+        "zlecenia-na-ocieplanie-budynkow",
+        "zlecenia-na-ocieplanie-elewacji",
+        "zlecenia-na-tynkowanie-elewacji",
+        "zlecenia-na-malowanie-elewacji",
+        "zlece-remont",
+        "zlece-remont-domu-budynku",
+        "zlece-remont-mieszkania",
+        "zlecenia-na-wykonczenia-wnetrz",
+        "zlecenia-na-remonty-biur",
+        "zlece-gladzie-ni1",
+        "zlece-szpachlowanie"
+      ]
+    }
+  }
+}

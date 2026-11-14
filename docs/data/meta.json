@@ -1,0 +1,43 @@
+{
+  "updated": "2026-11-03T19:03:33.916569+00:00",
+  "count": 73,
+  "new_count": 0,
+  "ntfy_topic": "fasaro-zlecenia-kk-4b7e2d91",
+  "app_url": "",
+  "radius_km": 35,
+  "version": "1.0.0",
+  "sources": [
+    {
+      "id": "bzp",
+      "label": "BZP / e-Zamówienia",
+      "status": "ok",
+      "count": 5,
+      "note": "pobrano 5 ogłoszeń (ostatnie 3 dni)",
+      "ms": 1111
+    },
+    {
+      "id": "epropublico",
+      "label": "e-ProPublico (K-K)",
+      "status": "ok",
+      "count": 17,
+      "note": "pobrano 17 aktualnych ogłoszeń od 4 zamawiających",
+      "ms": 1549
+    },
+    {
+      "id": "bip_kk",
+      "label": "BIP Kędzierzyn-Koźle",
+      "status": "ok",
+      "count": 25,
+      "note": "pobrano 25 ogłoszeń",
+      "ms": 375
+    },
+    {
+      "id": "oferteo",
+      "label": "Oferteo",
+      "status": "ok",
+      "count": 107,
+      "note": "pobrano 107 zleceń z 12 kategorii",
+      "ms": 17531
+    }
+  ]
+}

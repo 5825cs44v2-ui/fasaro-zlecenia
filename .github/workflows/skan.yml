@@ -1,0 +1,72 @@
+name: Skan zleceń
+
+on:
+  schedule:
+    # Co 30 minut (GitHub może opóźnić start o kilka minut).
+    - cron: "*/30 * * * *"
+  workflow_dispatch:
+    inputs:
+      notify:
+        description: "Wysłać powiadomienia ntfy?"
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: skan-zlecen
+  cancel-in-progress: false
+
+jobs:
+  skan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Pobierz repozytorium
+        uses: actions/checkout@v4
+
+      - name: Ustaw Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Zainstaluj biblioteki
+        run: python -m pip install --disable-pip-version-check -r requirements.txt
+
+      - name: Ustal adres aplikacji
+        run: |
+          OWNER="${{ github.repository_owner }}"
+          REPO="${{ github.event.repository.name }}"
+          if [ "$REPO" = "$OWNER.github.io" ]; then
+            URL="https://$OWNER.github.io/"
+          else
+            URL="https://$OWNER.github.io/$REPO/"
+          fi
+          echo "APP_URL=$URL" >> "$GITHUB_ENV"
+          echo "Adres aplikacji: $URL"
+
+      - name: Skanuj zlecenia
+        env:
+          PYTHONIOENCODING: utf-8
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.notify }}" = "false" ]; then
+            python -m scanner.run --out docs/data --app-url "$APP_URL"
+          else
+            python -m scanner.run --out docs/data --notify --app-url "$APP_URL"
+          fi
+
+      - name: Zapisz dane w repozytorium
+        run: |
+          git config user.name "FASARO Bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/data
+          if git diff --cached --quiet; then
+            echo "Brak zmian w danych."
+            exit 0
+          fi
+          git commit -m "Aktualizacja zleceń: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git pull --rebase --autostash origin "${GITHUB_REF_NAME}" || true
+          git push origin "HEAD:${GITHUB_REF_NAME}"
