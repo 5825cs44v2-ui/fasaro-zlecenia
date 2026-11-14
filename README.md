@@ -9,7 +9,7 @@ Działa jak zwykła aplikacja (ikona na ekranie początkowym), a o nowych zlecen
 ## Co robi
 
 - Co 30 minut sprawdza publiczne źródła: **BZP**, **e-ProPublico**, **BIP Kędzierzyn-Koźle** i **Oferteo**.
-- Odsiewa ogłoszenia spoza okolicy (domyślnie do 40 km) i te niezwiązane z usługami firmy.
+- Odsiewa ogłoszenia spoza okolicy (domyślnie do 30 km) i te niezwiązane z usługami firmy.
 - Liczy trafność 0–100 (słowa kluczowe + odległość + świeżość + termin).
 - Pokazuje listę w aplikacji i wysyła push, gdy pojawi się coś nowego.
 - Podpowiada szybkie wyszukiwanie w OLX, Facebook Marketplace i Google (tych serwisów nie da się sprawdzać automatycznie — blokują boty).
@@ -139,7 +139,7 @@ zlecenia-app/
 | Pole | Znaczenie |
 |---|---|
 | `radius_km` | promień używany w opisach i punktacji |
-| `max_distance_km` | twarde odcięcie ogłoszeń spoza okolicy (domyślnie 40) |
+| `max_distance_km` | twarde odcięcie ogłoszeń spoza okolicy (domyślnie 30) |
 | `min_score` | minimalna trafność, żeby ogłoszenie trafiło na listę (18) |
 | `notify_min_score` | minimalna trafność, żeby wysłać push (35) |
 | `notify_max_per_run` | maksymalna liczba pushy w jednym przebiegu (4) |

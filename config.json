@@ -1,8 +1,8 @@
 {
   "app_name": "FASARO Zlecenia",
   "city": "Kędzierzyn-Koźle",
-  "radius_km": 35,
-  "max_distance_km": 40,
+  "radius_km": 30,
+  "max_distance_km": 30,
   "min_score": 18,
   "notify_min_score": 35,
   "notify_max_per_run": 4,
