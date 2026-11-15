@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-15T20:04:42.103965+00:00",
-  "count": 58,
-  "new_count": 0,
+  "updated": "2026-11-15T21:07:43.705727+00:00",
+  "count": 59,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -975,6 +975,41 @@
       ],
       "reasons": [
         "Słowa: ociepl",
+        "18.7 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18431663",
+      "title": "Do wykonania malowanie 4 pomieszczeń, 21-50m²",
+      "description": "osoba prywatna • 21-50m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Strzelce Opolskie",
+      "distance_km": 18.7,
+      "published_at": "2026-11-15T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "21-50m²",
+      "id": "54426b558704",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-15T21:07:43.705727+00:00",
+      "score": 41,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "malowan",
+        "pomieszczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: malowan, pomieszczen",
         "18.7 km od Kędzierzyna-Koźla"
       ]
     },
