@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-15T06:20:16.573657+00:00",
-  "count": 57,
-  "new_count": 0,
+  "updated": "2026-11-15T07:38:11.874379+00:00",
+  "count": 58,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -1113,6 +1113,40 @@
       ],
       "contact_free": false,
       "contact_label": "Kontakt płatny"
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18427455",
+      "title": "Zapytanie o remont w domu, 11-20m²",
+      "description": "osoba prywatna • 11-20m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Pisarzowice",
+      "distance_km": 26.0,
+      "published_at": "2026-11-15T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "11-20m²",
+      "id": "b7f66f357f67",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-15T07:38:11.874379+00:00",
+      "score": 39,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "remont"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: remont",
+        "26 km od Kędzierzyna-Koźla"
+      ]
     },
     {
       "source": "oferteo",
