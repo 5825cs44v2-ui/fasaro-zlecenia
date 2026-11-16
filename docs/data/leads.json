@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-16T16:35:50.378689+00:00",
+  "updated": "2026-11-16T17:54:30.330814+00:00",
   "count": 64,
-  "new_count": 2,
+  "new_count": 0,
   "leads": [
     {
       "source": "bzp",
@@ -91,7 +91,7 @@
       "id": "78730a697b09",
       "contact_free": false,
       "contact_label": "Kontakt płatny",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-16T16:35:50.378689+00:00",
       "score": 100,
       "score_label": "Bardzo trafne",
@@ -407,7 +407,7 @@
       "id": "dcd1859088bc",
       "contact_free": false,
       "contact_label": "Kontakt płatny",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-16T16:35:50.378689+00:00",
       "score": 77,
       "score_label": "Bardzo trafne",
