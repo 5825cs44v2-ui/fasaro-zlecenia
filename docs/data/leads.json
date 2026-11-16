@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-16T14:51:59.980757+00:00",
-  "count": 63,
-  "new_count": 1,
+  "updated": "2026-11-16T16:35:50.378689+00:00",
+  "count": 64,
+  "new_count": 2,
   "leads": [
     {
       "source": "bzp",
@@ -20,7 +20,7 @@
       "id": "f84eb531961e",
       "contact_free": true,
       "contact_label": "Kontakt darmowy",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-16T14:51:59.980757+00:00",
       "score": 83,
       "score_label": "Bardzo trafne",
@@ -75,24 +75,24 @@
     {
       "source": "oferteo",
       "source_label": "Oferteo",
-      "external_id": "18433489",
+      "external_id": "18436493",
       "title": "Szukam firmy do ocieplenia elewacji domu, 101-150m²",
-      "description": "osoba prywatna • 101-150m² • w ciągu 3 miesięcy",
+      "description": "osoba prywatna • 101-150m² • najbliższy wolny termin",
       "url": "https://www.oferteo.pl/zlecenia-na-elewacje-ocieplenia-izolacje/kedzierzyn-kozle",
       "city": "Kędzierzyn-Koźle",
       "distance_km": 0.0,
       "published_at": "2026-11-16T06:00:00+00:00",
       "deadline": null,
-      "deadline_text": "w ciągu 3 miesięcy",
+      "deadline_text": "najbliższy wolny termin",
       "cpv": "",
       "organization": "",
       "budget": null,
       "area": "101-150m²",
-      "id": "2b9ed17cd1b1",
+      "id": "78730a697b09",
       "contact_free": false,
       "contact_label": "Kontakt płatny",
-      "is_new": false,
-      "first_seen": "2026-11-16T10:22:36.550408+00:00",
+      "is_new": true,
+      "first_seen": "2026-11-16T16:35:50.378689+00:00",
       "score": 100,
       "score_label": "Bardzo trafne",
       "service": "elewacje",
@@ -105,7 +105,8 @@
       "reasons": [
         "Słowa: elewac, ociepl",
         "0 km od Kędzierzyna-Koźla"
-      ]
+      ],
+      "also": []
     },
     {
       "source": "oferteo",
@@ -386,6 +387,40 @@
       ],
       "contact_free": false,
       "contact_label": "Kontakt płatny"
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18436599",
+      "title": "Szukam firmy do mycia elewacji domu, 151-200m²",
+      "description": "osoba prywatna • 151-200m² • termin do ustalenia",
+      "url": "https://www.oferteo.pl/zlecenia-na-elewacje-ocieplenia-izolacje/kedzierzyn-kozle",
+      "city": "Leśnica",
+      "distance_km": 9.5,
+      "published_at": "2026-11-16T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "termin do ustalenia",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "151-200m²",
+      "id": "dcd1859088bc",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-16T16:35:50.378689+00:00",
+      "score": 77,
+      "score_label": "Bardzo trafne",
+      "service": "elewacje",
+      "service_label": "Elewacje",
+      "matched": [
+        "elewac"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: elewac",
+        "9.5 km od Kędzierzyna-Koźla"
+      ]
     },
     {
       "source": "oferteo",
