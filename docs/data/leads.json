@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-16T17:54:30.330814+00:00",
-  "count": 64,
-  "new_count": 0,
+  "updated": "2026-11-16T18:47:22.607616+00:00",
+  "count": 65,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -871,6 +871,41 @@
       "reasons": [
         "Słowa: remont, mieszkan",
         "18.7 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18437291",
+      "title": "Zapytanie o remont w mieszkaniu, 21-50m²",
+      "description": "osoba prywatna • 21-50m²",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Krapkowice",
+      "distance_km": 23.2,
+      "published_at": "2026-11-16T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "21-50m²",
+      "id": "6f4de494b930",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-16T18:47:22.607616+00:00",
+      "score": 47,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "remont",
+        "mieszkan"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: remont, mieszkan",
+        "23.2 km od Kędzierzyna-Koźla"
       ]
     },
     {
