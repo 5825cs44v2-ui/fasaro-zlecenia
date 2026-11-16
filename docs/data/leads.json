@@ -1,8 +1,43 @@
 {
-  "updated": "2026-11-16T11:44:51.567329+00:00",
-  "count": 62,
-  "new_count": 0,
+  "updated": "2026-11-16T14:51:59.980757+00:00",
+  "count": 63,
+  "new_count": 1,
   "leads": [
+    {
+      "source": "bzp",
+      "source_label": "BZP / e-Zamówienia",
+      "external_id": "2026/BZP 00540724/01",
+      "title": "Remont pomieszczeń laboratoryjnych nr 16 i 17 w budynku głównym w Sieć Badawcza Łukasiewicz - Instytucie Chemii Surowców Odnawialnych",
+      "description": "Remont pomieszczeń laboratoryjnych nr 16 i 17 w budynku głównym w Sieć Badawcza Łukasiewicz - Instytucie Chemii Surowców Odnawialnych",
+      "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/08df43db-c8e7-465b-c1c5-d5000194313e",
+      "city": "Kędzierzyn-Koźle",
+      "distance_km": 0.0,
+      "published_at": "2026-11-16T12:18:55.721359+00:00",
+      "deadline": "2026-12-01T09:00:00+00:00",
+      "cpv": "45400000-1 (Roboty wykończeniowe w zakresie obiektów budowlanych),45100000-8 (Przygotowanie terenu pod budowę),45300000-0 (Roboty instalacyjne w budynkach)",
+      "organization": "Sieć Badawcza Łukasiewicz - Instytut Chemii Surowców Odnawialnych",
+      "budget": null,
+      "id": "f84eb531961e",
+      "contact_free": true,
+      "contact_label": "Kontakt darmowy",
+      "is_new": true,
+      "first_seen": "2026-11-16T14:51:59.980757+00:00",
+      "score": 83,
+      "score_label": "Bardzo trafne",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "remont",
+        "wykonczen",
+        "pomieszczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: remont, wykonczen, pomieszczen",
+        "0 km od Kędzierzyna-Koźla",
+        "termin 01.12.2026"
+      ]
+    },
     {
       "source": "bzp",
       "source_label": "BZP / e-Zamówienia",
