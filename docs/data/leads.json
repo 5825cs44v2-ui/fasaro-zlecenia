@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-16T08:25:07.909416+00:00",
-  "count": 60,
-  "new_count": 1,
+  "updated": "2026-11-16T10:22:36.550408+00:00",
+  "count": 62,
+  "new_count": 2,
   "leads": [
     {
       "source": "bzp",
@@ -35,6 +35,41 @@
         "Słowa: remont, lokal",
         "0 km od Kędzierzyna-Koźla",
         "termin 27.11.2026"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18433489",
+      "title": "Szukam firmy do ocieplenia elewacji domu, 101-150m²",
+      "description": "osoba prywatna • 101-150m² • w ciągu 3 miesięcy",
+      "url": "https://www.oferteo.pl/zlecenia-na-elewacje-ocieplenia-izolacje/kedzierzyn-kozle",
+      "city": "Kędzierzyn-Koźle",
+      "distance_km": 0.0,
+      "published_at": "2026-11-16T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "w ciągu 3 miesięcy",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "101-150m²",
+      "id": "2b9ed17cd1b1",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-16T10:22:36.550408+00:00",
+      "score": 100,
+      "score_label": "Bardzo trafne",
+      "service": "elewacje",
+      "service_label": "Elewacje",
+      "matched": [
+        "elewac",
+        "ociepl"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: elewac, ociepl",
+        "0 km od Kędzierzyna-Koźla"
       ]
     },
     {
@@ -876,6 +911,41 @@
     {
       "source": "oferteo",
       "source_label": "Oferteo",
+      "external_id": "18433476",
+      "title": "Zapytanie o remont w mieszkaniu, do 10m²",
+      "description": "osoba prywatna • do 10m² • w ciągu 6 miesięcy",
+      "url": "https://www.oferteo.pl/zlece-remont-mieszkania/kedzierzyn-kozle",
+      "city": "Krupski Młyn",
+      "distance_km": 28.2,
+      "published_at": "2026-11-16T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "w ciągu 6 miesięcy",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "do 10m²",
+      "id": "fa7bc28125b7",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-16T10:22:36.550408+00:00",
+      "score": 43,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "remont",
+        "mieszkan"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: remont, mieszkan",
+        "28.2 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
       "external_id": "18400212",
       "title": "Zapytanie o położenia gładzi, do 20m²",
       "description": "osoba prywatna • do 20m²",
@@ -1202,7 +1272,7 @@
       "id": "88e77ad7c28e",
       "contact_free": false,
       "contact_label": "Kontakt płatny",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-16T08:25:07.909416+00:00",
       "score": 38,
       "score_label": "Możliwe",
