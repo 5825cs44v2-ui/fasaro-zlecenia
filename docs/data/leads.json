@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-17T19:57:09.214371+00:00",
+  "updated": "2026-11-17T20:49:06.795651+00:00",
   "count": 71,
-  "new_count": 0,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -1188,6 +1188,42 @@
     {
       "source": "oferteo",
       "source_label": "Oferteo",
+      "external_id": "18444797",
+      "title": "Zlecenie na remont łazienki w mieszkaniu, do 5m²",
+      "description": "osoba prywatna • do 5m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Racibórz",
+      "distance_km": 28.8,
+      "published_at": "2026-11-17T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "do 5m²",
+      "id": "594165310a16",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-17T20:49:06.795651+00:00",
+      "score": 43,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "remont",
+        "mieszkan"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: remont, mieszkan",
+        "28.8 km od Kędzierzyna-Koźla"
+      ],
+      "also": []
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
       "external_id": "18433476",
       "title": "Zapytanie o remont w mieszkaniu, do 10m²",
       "description": "osoba prywatna • do 10m² • w ciągu 6 miesięcy",
@@ -1815,7 +1851,7 @@
       "external_id": "18399354",
       "title": "Zapytanie o remont lokalu usługowego, 250m²",
       "description": "firma • 250m² • najbliższy wolny termin",
-      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "url": "https://www.oferteo.pl/zlecenia-na-remonty-biur/kedzierzyn-kozle",
       "city": "Pyskowice",
       "distance_km": 29.2,
       "published_at": "2026-11-09T06:00:00+00:00",
@@ -1912,41 +1948,6 @@
         "Słowa: remont, mieszkan",
         "28.8 km od Kędzierzyna-Koźla"
       ]
-    },
-    {
-      "source": "oferteo",
-      "source_label": "Oferteo",
-      "external_id": "18373103",
-      "title": "Zlecenie na remont łazienki w mieszkaniu, do 5m²",
-      "description": "osoba prywatna • do 5m² • najbliższy wolny termin",
-      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
-      "city": "Racibórz",
-      "distance_km": 28.8,
-      "published_at": "2026-11-03T06:00:00+00:00",
-      "deadline": null,
-      "deadline_text": "najbliższy wolny termin",
-      "cpv": "",
-      "organization": "",
-      "budget": null,
-      "area": "do 5m²",
-      "id": "195f149721bf",
-      "is_new": false,
-      "first_seen": "2026-11-03T18:57:57.084890+00:00",
-      "score": 34,
-      "score_label": "Możliwe",
-      "service": "remonty",
-      "service_label": "Remonty wnętrz",
-      "matched": [
-        "remont",
-        "mieszkan"
-      ],
-      "negatives": [],
-      "reasons": [
-        "Słowa: remont, mieszkan",
-        "28.8 km od Kędzierzyna-Koźla"
-      ],
-      "contact_free": false,
-      "contact_label": "Kontakt płatny"
     },
     {
       "source": "oferteo",
