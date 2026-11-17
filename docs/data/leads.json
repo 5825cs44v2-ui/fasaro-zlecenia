@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-17T20:49:06.795651+00:00",
+  "updated": "2026-11-17T21:45:44.103886+00:00",
   "count": 71,
-  "new_count": 1,
+  "new_count": 0,
   "leads": [
     {
       "source": "bzp",
@@ -1204,7 +1204,7 @@
       "id": "594165310a16",
       "contact_free": false,
       "contact_label": "Kontakt płatny",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-17T20:49:06.795651+00:00",
       "score": 43,
       "score_label": "Możliwe",
@@ -1218,8 +1218,7 @@
       "reasons": [
         "Słowa: remont, mieszkan",
         "28.8 km od Kędzierzyna-Koźla"
-      ],
-      "also": []
+      ]
     },
     {
       "source": "oferteo",
