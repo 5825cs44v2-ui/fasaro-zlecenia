@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-17T08:15:53.258604+00:00",
-  "count": 66,
-  "new_count": 0,
+  "updated": "2026-11-17T09:30:34.903756+00:00",
+  "count": 67,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -57,7 +57,7 @@
       "contact_label": "Kontakt darmowy",
       "is_new": false,
       "first_seen": "2026-11-14T20:08:43.617585+00:00",
-      "score": 63,
+      "score": 60,
       "score_label": "Trafne",
       "service": "remonty",
       "service_label": "Remonty wnętrz",
@@ -70,6 +70,41 @@
         "Słowa: remont, lokal",
         "0 km od Kędzierzyna-Koźla",
         "termin 27.11.2026"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18439639",
+      "title": "Szukam firmy do ocieplenia elewacji domu, 70m²",
+      "description": "osoba prywatna • 70m²",
+      "url": "https://www.oferteo.pl/zlecenia-na-elewacje-ocieplenia-izolacje/kedzierzyn-kozle",
+      "city": "Kędzierzyn-Koźle",
+      "distance_km": 0.0,
+      "published_at": "2026-11-17T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "70m²",
+      "id": "9cd3cced5d29",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-17T09:30:34.903756+00:00",
+      "score": 100,
+      "score_label": "Bardzo trafne",
+      "service": "elewacje",
+      "service_label": "Elewacje",
+      "matched": [
+        "elewac",
+        "ociepl"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: elewac, ociepl",
+        "0 km od Kędzierzyna-Koźla"
       ]
     },
     {
