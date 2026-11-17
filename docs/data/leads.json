@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-16T23:37:03.760655+00:00",
-  "count": 65,
-  "new_count": 0,
+  "updated": "2026-11-17T00:50:24.738565+00:00",
+  "count": 66,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -1846,6 +1846,41 @@
       ],
       "contact_free": false,
       "contact_label": "Kontakt płatny"
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18438633",
+      "title": "Zapotrzebowanie na malowanie 1 pomieszczenia, 16m²",
+      "description": "osoba prywatna • 16m²",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Pyskowice",
+      "distance_km": 29.2,
+      "published_at": "2026-11-17T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "16m²",
+      "id": "c0d4e15ca101",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-17T00:50:24.738565+00:00",
+      "score": 33,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "malowan",
+        "pomieszczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: malowan, pomieszczen",
+        "29.2 km od Kędzierzyna-Koźla"
+      ]
     },
     {
       "source": "oferteo",
