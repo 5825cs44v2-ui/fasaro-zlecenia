@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-18T11:55:08.200476+00:00",
+  "updated": "2026-11-18T12:58:06.991887+00:00",
   "count": 71,
-  "new_count": 0,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -22,7 +22,7 @@
       "contact_label": "Kontakt darmowy",
       "is_new": false,
       "first_seen": "2026-11-16T14:51:59.980757+00:00",
-      "score": 83,
+      "score": 80,
       "score_label": "Bardzo trafne",
       "service": "remonty",
       "service_label": "Remonty wnętrz",
@@ -841,6 +841,42 @@
     {
       "source": "oferteo",
       "source_label": "Oferteo",
+      "external_id": "18448797",
+      "title": "Zapytanie o remont lub wykończenie",
+      "description": "osoba prywatna • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Racibórz",
+      "distance_km": 28.8,
+      "published_at": "2026-11-18T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "",
+      "id": "f53c3263b80a",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-18T12:58:06.991887+00:00",
+      "score": 55,
+      "score_label": "Trafne",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "remont",
+        "wykonczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: remont, wykonczen",
+        "28.8 km od Kędzierzyna-Koźla"
+      ],
+      "also": []
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
       "external_id": "18441326",
       "title": "Zapytanie o remont w domu, 51-80m²",
       "description": "osoba prywatna • 51-80m² • najbliższy wolny termin",
@@ -973,41 +1009,6 @@
       "reasons": [
         "Słowa: wykonczen",
         "6 km od Kędzierzyna-Koźla"
-      ]
-    },
-    {
-      "source": "oferteo",
-      "source_label": "Oferteo",
-      "external_id": "18406446",
-      "title": "Zapytanie o remont lub wykończenie",
-      "description": "osoba prywatna • najbliższy wolny termin",
-      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
-      "city": "Racibórz",
-      "distance_km": 28.8,
-      "published_at": "2026-11-10T06:00:00+00:00",
-      "deadline": null,
-      "deadline_text": "najbliższy wolny termin",
-      "cpv": "",
-      "organization": "",
-      "budget": null,
-      "area": "",
-      "id": "4c550655e3fb",
-      "contact_free": false,
-      "contact_label": "Kontakt płatny",
-      "is_new": false,
-      "first_seen": "2026-11-14T20:08:43.617585+00:00",
-      "score": 49,
-      "score_label": "Możliwe",
-      "service": "remonty",
-      "service_label": "Remonty wnętrz",
-      "matched": [
-        "remont",
-        "wykonczen"
-      ],
-      "negatives": [],
-      "reasons": [
-        "Słowa: remont, wykonczen",
-        "28.8 km od Kędzierzyna-Koźla"
       ]
     },
     {
