@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T05:34:17.262242+00:00",
+  "updated": "2026-11-18T07:01:53.273656+00:00",
   "count": 71,
   "new_count": 0,
   "ntfy_topic": "fasaro-zlecenia-kk-4b7e2d91",
@@ -13,7 +13,7 @@
       "status": "ok",
       "count": 9,
       "note": "pobrano 9 ogłoszeń (ostatnie 3 dni)",
-      "ms": 1399
+      "ms": 1384
     },
     {
       "id": "epropublico",
@@ -21,7 +21,7 @@
       "status": "ok",
       "count": 13,
       "note": "pobrano 13 aktualnych ogłoszeń od 4 zamawiających",
-      "ms": 2433
+      "ms": 2158
     },
     {
       "id": "bip_kk",
@@ -29,15 +29,15 @@
       "status": "ok",
       "count": 25,
       "note": "pobrano 25 ogłoszeń",
-      "ms": 2355
+      "ms": 916
     },
     {
       "id": "oferteo",
       "label": "Oferteo",
       "status": "ok",
-      "count": 56,
-      "note": "pobrano 56 zleceń z 12 kategorii",
-      "ms": 17219
+      "count": 55,
+      "note": "pobrano 55 zleceń z 12 kategorii",
+      "ms": 19203
     }
   ]
 }
