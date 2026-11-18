@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-18T12:58:06.991887+00:00",
+  "updated": "2026-11-18T14:16:57.555953+00:00",
   "count": 71,
-  "new_count": 1,
+  "new_count": 0,
   "leads": [
     {
       "source": "bzp",
@@ -857,7 +857,7 @@
       "id": "f53c3263b80a",
       "contact_free": false,
       "contact_label": "Kontakt płatny",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-18T12:58:06.991887+00:00",
       "score": 55,
       "score_label": "Trafne",
