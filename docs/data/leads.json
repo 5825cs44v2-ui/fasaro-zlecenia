@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T22:44:52.695329+00:00",
+  "updated": "2026-11-18T23:43:01.307304+00:00",
   "count": 72,
   "new_count": 0,
   "leads": [
@@ -906,8 +906,7 @@
       "reasons": [
         "Słowa: remont, wykonczen",
         "28.8 km od Kędzierzyna-Koźla"
-      ],
-      "also": []
+      ]
     },
     {
       "source": "oferteo",
@@ -1742,6 +1741,40 @@
     {
       "source": "oferteo",
       "source_label": "Oferteo",
+      "external_id": "18426180",
+      "title": "Zapytanie o remont w domu, 21-50m²",
+      "description": "osoba prywatna • 21-50m² • w ciągu 3 miesięcy",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Tarnów Opolski",
+      "distance_km": 27.3,
+      "published_at": "2026-11-14T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "w ciągu 3 miesięcy",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "21-50m²",
+      "id": "4f29bf1803b8",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": false,
+      "first_seen": "2026-11-14T20:08:43.617585+00:00",
+      "score": 36,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "remont"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: remont",
+        "27.3 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
       "external_id": "18407904",
       "title": "Szukam firmy do ocieplenia dachu domu, 36-70m²",
       "description": "osoba prywatna • 36-70m²",
@@ -1773,40 +1806,6 @@
       "reasons": [
         "Słowa: ociepl",
         "18.7 km od Kędzierzyna-Koźla"
-      ]
-    },
-    {
-      "source": "oferteo",
-      "source_label": "Oferteo",
-      "external_id": "18426180",
-      "title": "Zapytanie o remont w domu, 21-50m²",
-      "description": "osoba prywatna • 21-50m² • w ciągu 3 miesięcy",
-      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
-      "city": "Tarnów Opolski",
-      "distance_km": 27.3,
-      "published_at": "2026-11-14T06:00:00+00:00",
-      "deadline": null,
-      "deadline_text": "w ciągu 3 miesięcy",
-      "cpv": "",
-      "organization": "",
-      "budget": null,
-      "area": "21-50m²",
-      "id": "4f29bf1803b8",
-      "contact_free": false,
-      "contact_label": "Kontakt płatny",
-      "is_new": false,
-      "first_seen": "2026-11-14T20:08:43.617585+00:00",
-      "score": 36,
-      "score_label": "Możliwe",
-      "service": "remonty",
-      "service_label": "Remonty wnętrz",
-      "matched": [
-        "remont"
-      ],
-      "negatives": [],
-      "reasons": [
-        "Słowa: remont",
-        "27.3 km od Kędzierzyna-Koźla"
       ]
     },
     {
