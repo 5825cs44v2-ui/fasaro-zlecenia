@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-19T11:53:13.065431+00:00",
-  "count": 73,
-  "new_count": 0,
+  "updated": "2026-11-19T13:00:46.248496+00:00",
+  "count": 74,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -974,6 +974,40 @@
       "reasons": [
         "Słowa: remont",
         "6 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18455316",
+      "title": "Zapytanie o remont w domu, 21-50m²",
+      "description": "osoba prywatna • 21-50m² • w ciągu 6 miesięcy",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Urbanowice",
+      "distance_km": 13.0,
+      "published_at": "2026-11-19T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "w ciągu 6 miesięcy",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "21-50m²",
+      "id": "d0ff1550ed0e",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-19T13:00:46.248496+00:00",
+      "score": 51,
+      "score_label": "Trafne",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "remont"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: remont",
+        "13 km od Kędzierzyna-Koźla"
       ]
     },
     {
