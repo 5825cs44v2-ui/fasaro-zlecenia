@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-19T07:04:07.518344+00:00",
-  "count": 72,
-  "new_count": 0,
+  "updated": "2026-11-19T08:39:40.380854+00:00",
+  "count": 73,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -1599,6 +1599,41 @@
       ],
       "contact_free": false,
       "contact_label": "Kontakt płatny"
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18453199",
+      "title": "Zlecę malowanie 1 pomieszczenia, 21-50m²",
+      "description": "osoba prywatna • 21-50m² • w ciągu 3 miesięcy",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Krapkowice",
+      "distance_km": 23.2,
+      "published_at": "2026-11-19T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "w ciągu 3 miesięcy",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "21-50m²",
+      "id": "0e779d2e0744",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-19T08:39:40.380854+00:00",
+      "score": 37,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "malowan",
+        "pomieszczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: malowan, pomieszczen",
+        "23.2 km od Kędzierzyna-Koźla"
+      ]
     },
     {
       "source": "oferteo",
