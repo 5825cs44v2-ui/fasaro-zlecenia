@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-20T21:40:53.412387+00:00",
+  "updated": "2026-11-20T22:40:19.862506+00:00",
   "count": 79,
-  "new_count": 1,
+  "new_count": 0,
   "leads": [
     {
       "source": "bzp",
@@ -1239,7 +1239,7 @@
       "id": "4cfb9174605e",
       "contact_free": false,
       "contact_label": "Kontakt płatny",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-20T21:40:53.412387+00:00",
       "score": 45,
       "score_label": "Możliwe",
