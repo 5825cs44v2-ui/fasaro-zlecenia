@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-20T18:24:40.105491+00:00",
-  "count": 76,
-  "new_count": 0,
+  "updated": "2026-11-20T19:31:56.668389+00:00",
+  "count": 78,
+  "new_count": 2,
   "leads": [
     {
       "source": "bzp",
@@ -1152,6 +1152,42 @@
     {
       "source": "oferteo",
       "source_label": "Oferteo",
+      "external_id": "18463561",
+      "title": "Szukam firmy do ocieplenia pianą PUR dachu, do 35m²",
+      "description": "osoba prywatna • do 35m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlecenia-na-ocieplanie-budynkow/kedzierzyn-kozle",
+      "city": "Ujazd",
+      "distance_km": 10.2,
+      "published_at": "2026-11-20T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "do 35m²",
+      "id": "08b41d30e44b",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-20T19:31:56.668389+00:00",
+      "score": 46,
+      "score_label": "Możliwe",
+      "service": "ocieplenia",
+      "service_label": "Ocieplenia",
+      "matched": [
+        "ociepl"
+      ],
+      "negatives": [
+        "dach"
+      ],
+      "reasons": [
+        "Słowa: ociepl",
+        "10.2 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
       "external_id": "18340128",
       "title": "Zlecenie na remont łazienki w mieszkaniu, do 5m²",
       "description": "osoba prywatna • do 5m² • najbliższy wolny termin",
@@ -1668,6 +1704,41 @@
       ],
       "contact_free": false,
       "contact_label": "Kontakt płatny"
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18463702",
+      "title": "Zapotrzebowanie na malowanie 10 pomieszczeń, 101-200m²",
+      "description": "firma • 101-200m²",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Otmice",
+      "distance_km": 23.0,
+      "published_at": "2026-11-20T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "101-200m²",
+      "id": "b5cf93669eed",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-20T19:31:56.668389+00:00",
+      "score": 37,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "malowan",
+        "pomieszczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: malowan, pomieszczen",
+        "23 km od Kędzierzyna-Koźla"
+      ]
     },
     {
       "source": "oferteo",
