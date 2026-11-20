@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-20T14:16:46.210874+00:00",
-  "count": 74,
-  "new_count": 0,
+  "updated": "2026-11-20T15:23:31.258785+00:00",
+  "count": 76,
+  "new_count": 2,
   "leads": [
     {
       "source": "bzp",
@@ -669,6 +669,41 @@
     {
       "source": "oferteo",
       "source_label": "Oferteo",
+      "external_id": "18462445",
+      "title": "Zlecenie na remont łazienki w mieszkaniu, 6-10m²",
+      "description": "osoba prywatna • 6-10m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Kędzierzyn-Koźle",
+      "distance_km": 0.0,
+      "published_at": "2026-11-20T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "6-10m²",
+      "id": "b5ce6ad964cc",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-20T15:23:31.258785+00:00",
+      "score": 62,
+      "score_label": "Trafne",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "remont",
+        "mieszkan"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: remont, mieszkan",
+        "0 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
       "external_id": "18401755",
       "title": "Szukam firmy do naprawy elewacji domu, 101-150m²",
       "description": "osoba prywatna • 101-150m² • w ciągu 6 miesięcy",
@@ -870,6 +905,41 @@
       "negatives": [],
       "reasons": [
         "Słowa: remont, mieszkan",
+        "0 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18462606",
+      "title": "Dam zlecenie na malowanie 1 pomieszczenia, 11-20m²",
+      "description": "osoba prywatna • 11-20m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Kędzierzyn-Koźle",
+      "distance_km": 0.0,
+      "published_at": "2026-11-20T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "11-20m²",
+      "id": "51b4b690b803",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-20T15:23:31.258785+00:00",
+      "score": 52,
+      "score_label": "Trafne",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "malowan",
+        "pomieszczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: malowan, pomieszczen",
         "0 km od Kędzierzyna-Koźla"
       ]
     },
