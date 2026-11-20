@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-20T20:43:46.882247+00:00",
-  "count": 78,
-  "new_count": 0,
+  "updated": "2026-11-20T21:40:53.412387+00:00",
+  "count": 79,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -1219,6 +1219,41 @@
       ],
       "contact_free": false,
       "contact_label": "Kontakt płatny"
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18462585",
+      "title": "Dam zlecenie na malowanie 6 pomieszczeń, 101-200m²",
+      "description": "osoba prywatna • 101-200m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Zdzieszowice",
+      "distance_km": 11.1,
+      "published_at": "2026-11-20T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "101-200m²",
+      "id": "4cfb9174605e",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-20T21:40:53.412387+00:00",
+      "score": 45,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "malowan",
+        "pomieszczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: malowan, pomieszczen",
+        "11.1 km od Kędzierzyna-Koźla"
+      ]
     },
     {
       "source": "oferteo",
