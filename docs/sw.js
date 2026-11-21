@@ -1,7 +1,7 @@
 /* Service worker — aplikacja działa też przy słabym internecie. */
 "use strict";
 
-var VERSION = "fasaro-zlecenia-v2";
+var VERSION = "fasaro-zlecenia-v3";
 var SHELL = [
   "./",
   "./index.html",
