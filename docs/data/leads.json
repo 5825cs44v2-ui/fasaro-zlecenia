@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T11:39:09.840096+00:00",
+  "updated": "2026-11-21T12:44:48.959131+00:00",
   "count": 80,
   "new_count": 0,
   "leads": [
@@ -22,7 +22,7 @@
       "contact_label": "Kontakt darmowy",
       "is_new": false,
       "first_seen": "2026-11-16T14:51:59.980757+00:00",
-      "score": 80,
+      "score": 77,
       "score_label": "Bardzo trafne",
       "service": "remonty",
       "service_label": "Remonty wnętrz",
