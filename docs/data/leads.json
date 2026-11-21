@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-21T20:34:35.415775+00:00",
-  "count": 80,
-  "new_count": 0,
+  "updated": "2026-11-21T21:32:25.049674+00:00",
+  "count": 81,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -2053,6 +2053,41 @@
       ],
       "contact_free": false,
       "contact_label": "Kontakt płatny"
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18468164",
+      "title": "Szukam ekipy do malowania 1 pomieszczenia, do 10m²",
+      "description": "osoba prywatna • do 10m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Racibórz",
+      "distance_km": 28.8,
+      "published_at": "2026-11-21T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "do 10m²",
+      "id": "b1e2c060d4e1",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-21T21:32:25.049674+00:00",
+      "score": 33,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "malowan",
+        "pomieszczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: malowan, pomieszczen",
+        "28.8 km od Kędzierzyna-Koźla"
+      ]
     },
     {
       "source": "oferteo",
