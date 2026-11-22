@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-22T11:38:28.224462+00:00",
-  "count": 83,
-  "new_count": 0,
+  "updated": "2026-11-22T12:43:26.577263+00:00",
+  "count": 84,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -1290,6 +1290,41 @@
       ],
       "contact_free": false,
       "contact_label": "Kontakt płatny"
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18470356",
+      "title": "Zapytanie o remont lokalu usługowego, 500m²",
+      "description": "firma • 500m²",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Racibórz",
+      "distance_km": 28.8,
+      "published_at": "2026-11-22T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "500m²",
+      "id": "8e165ed77598",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-22T12:43:26.577263+00:00",
+      "score": 42,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "remont",
+        "lokal"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: remont, lokal",
+        "28.8 km od Kędzierzyna-Koźla"
+      ]
     },
     {
       "source": "oferteo",
