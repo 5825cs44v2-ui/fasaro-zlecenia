@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-22T17:37:01.421433+00:00",
-  "count": 84,
-  "new_count": 0,
+  "updated": "2026-11-22T18:37:32.604773+00:00",
+  "count": 85,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -1774,6 +1774,40 @@
       ],
       "contact_free": false,
       "contact_label": "Kontakt płatny"
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18472101",
+      "title": "Zapotrzebowanie na wykończenie domu , 51-80m²",
+      "description": "osoba prywatna • 51-80m² • w ciągu 6 miesięcy",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Racibórz",
+      "distance_km": 28.8,
+      "published_at": "2026-11-22T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "w ciągu 6 miesięcy",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "51-80m²",
+      "id": "85b6a3b2596b",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-22T18:37:32.604773+00:00",
+      "score": 37,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "wykonczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: wykonczen",
+        "28.8 km od Kędzierzyna-Koźla"
+      ]
     },
     {
       "source": "oferteo",
