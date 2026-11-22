@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-22T08:44:33.651653+00:00",
+  "updated": "2026-11-22T09:41:43.442802+00:00",
   "count": 83,
-  "new_count": 1,
+  "new_count": 0,
   "leads": [
     {
       "source": "bzp",
@@ -57,7 +57,7 @@
       "contact_label": "Kontakt darmowy",
       "is_new": false,
       "first_seen": "2026-11-14T20:08:43.617585+00:00",
-      "score": 60,
+      "score": 57,
       "score_label": "Trafne",
       "service": "remonty",
       "service_label": "Remonty wnętrz",
@@ -1587,7 +1587,7 @@
       "id": "92ffcd956a7f",
       "contact_free": false,
       "contact_label": "Kontakt płatny",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-22T08:44:33.651653+00:00",
       "score": 39,
       "score_label": "Możliwe",
