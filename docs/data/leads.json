@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-21T23:30:48.155907+00:00",
-  "count": 81,
-  "new_count": 0,
+  "updated": "2026-11-22T00:47:13.348330+00:00",
+  "count": 82,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -872,6 +872,42 @@
       ],
       "contact_free": false,
       "contact_label": "Kontakt płatny"
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18468576",
+      "title": "Potrzebna firma do ocieplenia dachu, 101-150m²",
+      "description": "osoba prywatna • 101-150m²",
+      "url": "https://www.oferteo.pl/zlecenia-na-ocieplanie-budynkow/kedzierzyn-kozle",
+      "city": "Kędzierzyn-Koźle",
+      "distance_km": 0.0,
+      "published_at": "2026-11-22T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "101-150m²",
+      "id": "19fd49e14d42",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-22T00:47:13.348330+00:00",
+      "score": 53,
+      "score_label": "Trafne",
+      "service": "ocieplenia",
+      "service_label": "Ocieplenia",
+      "matched": [
+        "ociepl"
+      ],
+      "negatives": [
+        "dach"
+      ],
+      "reasons": [
+        "Słowa: ociepl",
+        "0 km od Kędzierzyna-Koźla"
+      ]
     },
     {
       "source": "oferteo",
