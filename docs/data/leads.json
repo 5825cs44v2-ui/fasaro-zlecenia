@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25T08:57:40.532314+00:00",
-  "count": 88,
+  "updated": "2026-11-25T10:09:06.325427+00:00",
+  "count": 89,
   "new_count": 1,
   "leads": [
     {
@@ -1136,7 +1136,7 @@
       "id": "d9f418f8d9f3",
       "contact_free": false,
       "contact_label": "Kontakt płatny",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-25T08:57:40.532314+00:00",
       "score": 47,
       "score_label": "Możliwe",
@@ -2156,6 +2156,41 @@
       ],
       "contact_free": false,
       "contact_label": "Kontakt płatny"
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18488659",
+      "title": "Dam zlecenie na malowanie 1 pomieszczenia, 11-20m²",
+      "description": "osoba prywatna • 11-20m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Baborów",
+      "distance_km": 27.3,
+      "published_at": "2026-11-25T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "11-20m²",
+      "id": "7b776b8f5ebb",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-25T10:09:06.325427+00:00",
+      "score": 33,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "malowan",
+        "pomieszczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: malowan, pomieszczen",
+        "27.3 km od Kędzierzyna-Koźla"
+      ]
     },
     {
       "source": "oferteo",
