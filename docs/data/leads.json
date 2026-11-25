@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-25T18:45:06.560808+00:00",
-  "count": 91,
-  "new_count": 0,
+  "updated": "2026-11-25T19:50:12.674311+00:00",
+  "count": 92,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -735,6 +735,42 @@
       ],
       "contact_free": false,
       "contact_label": "Kontakt płatny"
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18492678",
+      "title": "Zapytanie o remont w mieszkaniu, 21-50m²",
+      "description": "osoba prywatna • 21-50m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Kędzierzyn-Koźle",
+      "distance_km": 0.0,
+      "published_at": "2026-11-25T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "21-50m²",
+      "id": "41057aca3ead",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-25T19:50:12.674311+00:00",
+      "score": 62,
+      "score_label": "Trafne",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "remont",
+        "mieszkan"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: remont, mieszkan",
+        "0 km od Kędzierzyna-Koźla"
+      ],
+      "also": []
     },
     {
       "source": "oferteo",
