@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-25T10:09:06.325427+00:00",
-  "count": 89,
+  "updated": "2026-11-25T11:27:04.763568+00:00",
+  "count": 90,
   "new_count": 1,
   "leads": [
     {
@@ -142,6 +142,41 @@
         "0 km od Kędzierzyna-Koźla"
       ],
       "also": []
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18489418",
+      "title": "Szukam firmy do ocieplenia elewacji bud. przemysłowego, 3000m²",
+      "description": "firma • 3000m² • w ciągu 6 miesięcy",
+      "url": "https://www.oferteo.pl/zlecenia-na-elewacje-ocieplenia-izolacje/kedzierzyn-kozle",
+      "city": "Racibórz",
+      "distance_km": 28.8,
+      "published_at": "2026-11-25T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "w ciągu 6 miesięcy",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "3000m²",
+      "id": "28b8a92fb9bc",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-25T11:27:04.763568+00:00",
+      "score": 99,
+      "score_label": "Bardzo trafne",
+      "service": "elewacje",
+      "service_label": "Elewacje",
+      "matched": [
+        "elewac",
+        "ociepl"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: elewac, ociepl",
+        "28.8 km od Kędzierzyna-Koźla"
+      ]
     },
     {
       "source": "oferteo",
@@ -2176,7 +2211,7 @@
       "id": "7b776b8f5ebb",
       "contact_free": false,
       "contact_label": "Kontakt płatny",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-25T10:09:06.325427+00:00",
       "score": 33,
       "score_label": "Możliwe",
