@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-25T05:00:12.884060+00:00",
+  "updated": "2026-11-25T06:23:28.716479+00:00",
   "count": 87,
   "new_count": 0,
   "leads": [
@@ -825,7 +825,7 @@
       "contact_label": "Kontakt płatny",
       "is_new": false,
       "first_seen": "2026-11-20T15:23:31.258785+00:00",
-      "score": 59,
+      "score": 56,
       "score_label": "Trafne",
       "service": "remonty",
       "service_label": "Remonty wnętrz",
@@ -1017,41 +1017,6 @@
     {
       "source": "oferteo",
       "source_label": "Oferteo",
-      "external_id": "18462606",
-      "title": "Dam zlecenie na malowanie 1 pomieszczenia, 11-20m²",
-      "description": "osoba prywatna • 11-20m² • najbliższy wolny termin",
-      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
-      "city": "Kędzierzyn-Koźle",
-      "distance_km": 0.0,
-      "published_at": "2026-11-20T06:00:00+00:00",
-      "deadline": null,
-      "deadline_text": "najbliższy wolny termin",
-      "cpv": "",
-      "organization": "",
-      "budget": null,
-      "area": "11-20m²",
-      "id": "51b4b690b803",
-      "contact_free": false,
-      "contact_label": "Kontakt płatny",
-      "is_new": false,
-      "first_seen": "2026-11-20T15:23:31.258785+00:00",
-      "score": 49,
-      "score_label": "Możliwe",
-      "service": "remonty",
-      "service_label": "Remonty wnętrz",
-      "matched": [
-        "malowan",
-        "pomieszczen"
-      ],
-      "negatives": [],
-      "reasons": [
-        "Słowa: malowan, pomieszczen",
-        "0 km od Kędzierzyna-Koźla"
-      ]
-    },
-    {
-      "source": "oferteo",
-      "source_label": "Oferteo",
       "external_id": "18448797",
       "title": "Zapytanie o remont lub wykończenie",
       "description": "osoba prywatna • najbliższy wolny termin",
@@ -1189,6 +1154,41 @@
     {
       "source": "oferteo",
       "source_label": "Oferteo",
+      "external_id": "18462606",
+      "title": "Dam zlecenie na malowanie 1 pomieszczenia, 11-20m²",
+      "description": "osoba prywatna • 11-20m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Kędzierzyn-Koźle",
+      "distance_km": 0.0,
+      "published_at": "2026-11-20T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "11-20m²",
+      "id": "51b4b690b803",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": false,
+      "first_seen": "2026-11-20T15:23:31.258785+00:00",
+      "score": 46,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "malowan",
+        "pomieszczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: malowan, pomieszczen",
+        "0 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
       "external_id": "18340128",
       "title": "Zlecenie na remont łazienki w mieszkaniu, do 5m²",
       "description": "osoba prywatna • do 5m² • najbliższy wolny termin",
@@ -1258,42 +1258,6 @@
     {
       "source": "oferteo",
       "source_label": "Oferteo",
-      "external_id": "18463561",
-      "title": "Szukam firmy do ocieplenia pianą PUR dachu, do 35m²",
-      "description": "osoba prywatna • do 35m² • najbliższy wolny termin",
-      "url": "https://www.oferteo.pl/zlecenia-na-ocieplanie-budynkow/kedzierzyn-kozle",
-      "city": "Ujazd",
-      "distance_km": 10.2,
-      "published_at": "2026-11-20T06:00:00+00:00",
-      "deadline": null,
-      "deadline_text": "najbliższy wolny termin",
-      "cpv": "",
-      "organization": "",
-      "budget": null,
-      "area": "do 35m²",
-      "id": "08b41d30e44b",
-      "contact_free": false,
-      "contact_label": "Kontakt płatny",
-      "is_new": false,
-      "first_seen": "2026-11-20T19:31:56.668389+00:00",
-      "score": 43,
-      "score_label": "Możliwe",
-      "service": "ocieplenia",
-      "service_label": "Ocieplenia",
-      "matched": [
-        "ociepl"
-      ],
-      "negatives": [
-        "dach"
-      ],
-      "reasons": [
-        "Słowa: ociepl",
-        "10.2 km od Kędzierzyna-Koźla"
-      ]
-    },
-    {
-      "source": "oferteo",
-      "source_label": "Oferteo",
       "external_id": "18374912",
       "title": "Zlecę malowanie 4 pomieszczeń, 21-50m²",
       "description": "osoba prywatna • 21-50m² • w ciągu 6 miesięcy",
@@ -1325,41 +1289,6 @@
       ],
       "contact_free": false,
       "contact_label": "Kontakt płatny"
-    },
-    {
-      "source": "oferteo",
-      "source_label": "Oferteo",
-      "external_id": "18462585",
-      "title": "Dam zlecenie na malowanie 6 pomieszczeń, 101-200m²",
-      "description": "osoba prywatna • 101-200m² • najbliższy wolny termin",
-      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
-      "city": "Zdzieszowice",
-      "distance_km": 11.1,
-      "published_at": "2026-11-20T06:00:00+00:00",
-      "deadline": null,
-      "deadline_text": "najbliższy wolny termin",
-      "cpv": "",
-      "organization": "",
-      "budget": null,
-      "area": "101-200m²",
-      "id": "4cfb9174605e",
-      "contact_free": false,
-      "contact_label": "Kontakt płatny",
-      "is_new": false,
-      "first_seen": "2026-11-20T21:40:53.412387+00:00",
-      "score": 42,
-      "score_label": "Możliwe",
-      "service": "remonty",
-      "service_label": "Remonty wnętrz",
-      "matched": [
-        "malowan",
-        "pomieszczen"
-      ],
-      "negatives": [],
-      "reasons": [
-        "Słowa: malowan, pomieszczen",
-        "11.1 km od Kędzierzyna-Koźla"
-      ]
     },
     {
       "source": "oferteo",
@@ -1433,41 +1362,6 @@
     {
       "source": "oferteo",
       "source_label": "Oferteo",
-      "external_id": "18475119",
-      "title": "Zapytanie o wykończenie mieszkania, 21-50m²",
-      "description": "osoba prywatna • 21-50m² • najbliższy wolny termin",
-      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
-      "city": "Racibórz",
-      "distance_km": 28.8,
-      "published_at": "2026-11-23T06:00:00+00:00",
-      "deadline": null,
-      "deadline_text": "najbliższy wolny termin",
-      "cpv": "",
-      "organization": "",
-      "budget": null,
-      "area": "21-50m²",
-      "id": "d5ae72dc4082",
-      "contact_free": false,
-      "contact_label": "Kontakt płatny",
-      "is_new": false,
-      "first_seen": "2026-11-23T10:36:21.295687+00:00",
-      "score": 41,
-      "score_label": "Możliwe",
-      "service": "remonty",
-      "service_label": "Remonty wnętrz",
-      "matched": [
-        "wykonczen",
-        "mieszkan"
-      ],
-      "negatives": [],
-      "reasons": [
-        "Słowa: wykonczen, mieszkan",
-        "28.8 km od Kędzierzyna-Koźla"
-      ]
-    },
-    {
-      "source": "oferteo",
-      "source_label": "Oferteo",
       "external_id": "18437291",
       "title": "Zapytanie o remont w mieszkaniu, 21-50m²",
       "description": "osoba prywatna • 21-50m²",
@@ -1534,6 +1428,42 @@
       "reasons": [
         "Słowa: ociepl",
         "8.6 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18463561",
+      "title": "Szukam firmy do ocieplenia pianą PUR dachu, do 35m²",
+      "description": "osoba prywatna • do 35m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlecenia-na-ocieplanie-budynkow/kedzierzyn-kozle",
+      "city": "Ujazd",
+      "distance_km": 10.2,
+      "published_at": "2026-11-20T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "do 35m²",
+      "id": "08b41d30e44b",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": false,
+      "first_seen": "2026-11-20T19:31:56.668389+00:00",
+      "score": 40,
+      "score_label": "Możliwe",
+      "service": "ocieplenia",
+      "service_label": "Ocieplenia",
+      "matched": [
+        "ociepl"
+      ],
+      "negatives": [
+        "dach"
+      ],
+      "reasons": [
+        "Słowa: ociepl",
+        "10.2 km od Kędzierzyna-Koźla"
       ]
     },
     {
@@ -1670,6 +1600,76 @@
       "negatives": [],
       "reasons": [
         "Słowa: remont, lokal",
+        "28.8 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18462585",
+      "title": "Dam zlecenie na malowanie 6 pomieszczeń, 101-200m²",
+      "description": "osoba prywatna • 101-200m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Zdzieszowice",
+      "distance_km": 11.1,
+      "published_at": "2026-11-20T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "101-200m²",
+      "id": "4cfb9174605e",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": false,
+      "first_seen": "2026-11-20T21:40:53.412387+00:00",
+      "score": 39,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "malowan",
+        "pomieszczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: malowan, pomieszczen",
+        "11.1 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18475119",
+      "title": "Zapytanie o wykończenie mieszkania, 21-50m²",
+      "description": "osoba prywatna • 21-50m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Racibórz",
+      "distance_km": 28.8,
+      "published_at": "2026-11-23T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "21-50m²",
+      "id": "d5ae72dc4082",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": false,
+      "first_seen": "2026-11-23T10:36:21.295687+00:00",
+      "score": 38,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "wykonczen",
+        "mieszkan"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: wykonczen, mieszkan",
         "28.8 km od Kędzierzyna-Koźla"
       ]
     },
@@ -1918,41 +1918,6 @@
     {
       "source": "oferteo",
       "source_label": "Oferteo",
-      "external_id": "18431663",
-      "title": "Do wykonania malowanie 4 pomieszczeń, 21-50m²",
-      "description": "osoba prywatna • 21-50m² • najbliższy wolny termin",
-      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
-      "city": "Strzelce Opolskie",
-      "distance_km": 18.7,
-      "published_at": "2026-11-15T06:00:00+00:00",
-      "deadline": null,
-      "deadline_text": "najbliższy wolny termin",
-      "cpv": "",
-      "organization": "",
-      "budget": null,
-      "area": "21-50m²",
-      "id": "54426b558704",
-      "contact_free": false,
-      "contact_label": "Kontakt płatny",
-      "is_new": false,
-      "first_seen": "2026-11-15T21:07:43.705727+00:00",
-      "score": 35,
-      "score_label": "Możliwe",
-      "service": "remonty",
-      "service_label": "Remonty wnętrz",
-      "matched": [
-        "malowan",
-        "pomieszczen"
-      ],
-      "negatives": [],
-      "reasons": [
-        "Słowa: malowan, pomieszczen",
-        "18.7 km od Kędzierzyna-Koźla"
-      ]
-    },
-    {
-      "source": "oferteo",
-      "source_label": "Oferteo",
       "external_id": "18472101",
       "title": "Zapotrzebowanie na wykończenie domu , 51-80m²",
       "description": "osoba prywatna • 51-80m² • w ciągu 6 miesięcy",
@@ -1982,41 +1947,6 @@
       "reasons": [
         "Słowa: wykonczen",
         "28.8 km od Kędzierzyna-Koźla"
-      ]
-    },
-    {
-      "source": "oferteo",
-      "source_label": "Oferteo",
-      "external_id": "18463702",
-      "title": "Zapotrzebowanie na malowanie 10 pomieszczeń, 101-200m²",
-      "description": "firma • 101-200m²",
-      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
-      "city": "Otmice",
-      "distance_km": 23.0,
-      "published_at": "2026-11-20T06:00:00+00:00",
-      "deadline": null,
-      "deadline_text": "",
-      "cpv": "",
-      "organization": "",
-      "budget": null,
-      "area": "101-200m²",
-      "id": "b5cf93669eed",
-      "contact_free": false,
-      "contact_label": "Kontakt płatny",
-      "is_new": false,
-      "first_seen": "2026-11-20T19:31:56.668389+00:00",
-      "score": 34,
-      "score_label": "Możliwe",
-      "service": "remonty",
-      "service_label": "Remonty wnętrz",
-      "matched": [
-        "malowan",
-        "pomieszczen"
-      ],
-      "negatives": [],
-      "reasons": [
-        "Słowa: malowan, pomieszczen",
-        "23 km od Kędzierzyna-Koźla"
       ]
     },
     {
@@ -2195,40 +2125,6 @@
     {
       "source": "oferteo",
       "source_label": "Oferteo",
-      "external_id": "18427455",
-      "title": "Zapytanie o remont w domu, 11-20m²",
-      "description": "osoba prywatna • 11-20m² • najbliższy wolny termin",
-      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
-      "city": "Pisarzowice",
-      "distance_km": 26.0,
-      "published_at": "2026-11-15T06:00:00+00:00",
-      "deadline": null,
-      "deadline_text": "najbliższy wolny termin",
-      "cpv": "",
-      "organization": "",
-      "budget": null,
-      "area": "11-20m²",
-      "id": "b7f66f357f67",
-      "contact_free": false,
-      "contact_label": "Kontakt płatny",
-      "is_new": false,
-      "first_seen": "2026-11-15T07:38:11.874379+00:00",
-      "score": 33,
-      "score_label": "Możliwe",
-      "service": "remonty",
-      "service_label": "Remonty wnętrz",
-      "matched": [
-        "remont"
-      ],
-      "negatives": [],
-      "reasons": [
-        "Słowa: remont",
-        "26 km od Kędzierzyna-Koźla"
-      ]
-    },
-    {
-      "source": "oferteo",
-      "source_label": "Oferteo",
       "external_id": "18426400",
       "title": "Zapytanie o ocieplenie pianą PUR dachu, 151-200m²",
       "description": "osoba prywatna • 151-200m² • w ciągu 6 miesięcy",
@@ -2372,6 +2268,41 @@
     {
       "source": "oferteo",
       "source_label": "Oferteo",
+      "external_id": "18431663",
+      "title": "Do wykonania malowanie 4 pomieszczeń, 21-50m²",
+      "description": "osoba prywatna • 21-50m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Strzelce Opolskie",
+      "distance_km": 18.7,
+      "published_at": "2026-11-15T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "21-50m²",
+      "id": "54426b558704",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": false,
+      "first_seen": "2026-11-15T21:07:43.705727+00:00",
+      "score": 32,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "malowan",
+        "pomieszczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: malowan, pomieszczen",
+        "18.7 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
       "external_id": "18406772",
       "title": "Zlecenie na wykończenie łazienki w domu jednorodzinnym, do 5m²",
       "description": "osoba prywatna • do 5m²",
@@ -2401,6 +2332,41 @@
       "reasons": [
         "Słowa: wykonczen",
         "23.2 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18463702",
+      "title": "Zapotrzebowanie na malowanie 10 pomieszczeń, 101-200m²",
+      "description": "firma • 101-200m²",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Otmice",
+      "distance_km": 23.0,
+      "published_at": "2026-11-20T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "101-200m²",
+      "id": "b5cf93669eed",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": false,
+      "first_seen": "2026-11-20T19:31:56.668389+00:00",
+      "score": 31,
+      "score_label": "Do sprawdzenia",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "malowan",
+        "pomieszczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: malowan, pomieszczen",
+        "23 km od Kędzierzyna-Koźla"
       ]
     },
     {
@@ -2471,6 +2437,40 @@
       "reasons": [
         "Słowa: malowan, pomieszczen",
         "28.8 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18427455",
+      "title": "Zapytanie o remont w domu, 11-20m²",
+      "description": "osoba prywatna • 11-20m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Pisarzowice",
+      "distance_km": 26.0,
+      "published_at": "2026-11-15T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "11-20m²",
+      "id": "b7f66f357f67",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": false,
+      "first_seen": "2026-11-15T07:38:11.874379+00:00",
+      "score": 30,
+      "score_label": "Do sprawdzenia",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "remont"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: remont",
+        "26 km od Kędzierzyna-Koźla"
       ]
     },
     {
