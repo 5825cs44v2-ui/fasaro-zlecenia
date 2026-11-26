@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-26T07:06:01.436190+00:00",
-  "count": 92,
-  "new_count": 0,
+  "updated": "2026-11-26T08:43:30.106868+00:00",
+  "count": 93,
+  "new_count": 1,
   "leads": [
     {
       "source": "bzp",
@@ -699,6 +699,41 @@
       "reasons": [
         "Słowa: remont, wykonczen",
         "6 km od Kędzierzyna-Koźla"
+      ]
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18494161",
+      "title": "Szukam firmy do ocieplenia lub izolacji fundamentów domu typu bliźniak, 71-100m²",
+      "description": "osoba prywatna • 71-100m² • w ciągu 6 miesięcy",
+      "url": "https://www.oferteo.pl/zlecenia-na-ocieplanie-budynkow/kedzierzyn-kozle",
+      "city": "Pyskowice",
+      "distance_km": 29.2,
+      "published_at": "2026-11-26T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "w ciągu 6 miesięcy",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "71-100m²",
+      "id": "7ffd6e619321",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-26T08:43:30.106868+00:00",
+      "score": 64,
+      "score_label": "Trafne",
+      "service": "ocieplenia",
+      "service_label": "Ocieplenia",
+      "matched": [
+        "ociepl",
+        "izolac"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: ociepl, izolac",
+        "29.2 km od Kędzierzyna-Koźla"
       ]
     },
     {
