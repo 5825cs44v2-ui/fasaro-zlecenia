@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-26T08:43:30.106868+00:00",
-  "count": 93,
+  "updated": "2026-11-26T10:00:41.797459+00:00",
+  "count": 94,
   "new_count": 1,
   "leads": [
     {
@@ -57,7 +57,7 @@
       "contact_label": "Kontakt darmowy",
       "is_new": false,
       "first_seen": "2026-11-14T20:08:43.617585+00:00",
-      "score": 54,
+      "score": 52,
       "score_label": "Trafne",
       "service": "remonty",
       "service_label": "Remonty wnętrz",
@@ -720,7 +720,7 @@
       "id": "7ffd6e619321",
       "contact_free": false,
       "contact_label": "Kontakt płatny",
-      "is_new": true,
+      "is_new": false,
       "first_seen": "2026-11-26T08:43:30.106868+00:00",
       "score": 64,
       "score_label": "Trafne",
@@ -1987,6 +1987,41 @@
       ],
       "contact_free": false,
       "contact_label": "Kontakt płatny"
+    },
+    {
+      "source": "oferteo",
+      "source_label": "Oferteo",
+      "external_id": "18495162",
+      "title": "Dam zlecenie na malowanie 2 pomieszczeń, 51-100m²",
+      "description": "osoba prywatna • 51-100m² • najbliższy wolny termin",
+      "url": "https://www.oferteo.pl/zlece-remont/kedzierzyn-kozle",
+      "city": "Gogolin",
+      "distance_km": 21.6,
+      "published_at": "2026-11-26T06:00:00+00:00",
+      "deadline": null,
+      "deadline_text": "najbliższy wolny termin",
+      "cpv": "",
+      "organization": "",
+      "budget": null,
+      "area": "51-100m²",
+      "id": "e3e41e811d7c",
+      "contact_free": false,
+      "contact_label": "Kontakt płatny",
+      "is_new": true,
+      "first_seen": "2026-11-26T10:00:41.797459+00:00",
+      "score": 37,
+      "score_label": "Możliwe",
+      "service": "remonty",
+      "service_label": "Remonty wnętrz",
+      "matched": [
+        "malowan",
+        "pomieszczen"
+      ],
+      "negatives": [],
+      "reasons": [
+        "Słowa: malowan, pomieszczen",
+        "21.6 km od Kędzierzyna-Koźla"
+      ]
     },
     {
       "source": "oferteo",
