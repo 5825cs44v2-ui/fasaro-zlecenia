@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T05:55:34.130078+00:00",
+  "updated": "2026-11-26T07:06:01.436190+00:00",
   "count": 92,
   "new_count": 0,
   "ntfy_topic": "fasaro-zlecenia-kk-4b7e2d91",
@@ -13,7 +13,7 @@
       "status": "ok",
       "count": 9,
       "note": "pobrano 9 ogłoszeń (ostatnie 3 dni)",
-      "ms": 1237
+      "ms": 1378
     },
     {
       "id": "epropublico",
@@ -21,15 +21,15 @@
       "status": "ok",
       "count": 12,
       "note": "pobrano 12 aktualnych ogłoszeń od 4 zamawiających",
-      "ms": 2872
+      "ms": 2570
     },
     {
       "id": "bip_kk",
       "label": "BIP Kędzierzyn-Koźle",
-      "status": "error",
-      "count": 0,
-      "note": "RetryError: HTTPSConnectionPool(host='bip.kedzierzynkozle.pl', port=443): Max retries exceeded with url: /przetargi/23/1/25 (Caused by ResponseError('too many 502 error responses'))",
-      "ms": 73449
+      "status": "ok",
+      "count": 25,
+      "note": "pobrano 25 ogłoszeń",
+      "ms": 973
     },
     {
       "id": "oferteo",
@@ -37,7 +37,7 @@
       "status": "ok",
       "count": 39,
       "note": "pobrano 39 zleceń z 12 kategorii",
-      "ms": 19014
+      "ms": 20418
     }
   ]
 }
