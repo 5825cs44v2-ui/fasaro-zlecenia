@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T22:49:58.312412+00:00",
+  "updated": "2026-11-26T23:49:04.831504+00:00",
   "count": 94,
   "new_count": 0,
   "ntfy_topic": "fasaro-zlecenia-kk-4b7e2d91",
@@ -13,15 +13,15 @@
       "status": "ok",
       "count": 12,
       "note": "pobrano 12 ogłoszeń (ostatnie 3 dni)",
-      "ms": 1169
+      "ms": 1396
     },
     {
       "id": "epropublico",
       "label": "e-ProPublico (K-K)",
       "status": "ok",
-      "count": 12,
-      "note": "pobrano 12 aktualnych ogłoszeń od 4 zamawiających",
-      "ms": 2065
+      "count": 11,
+      "note": "pobrano 11 aktualnych ogłoszeń od 4 zamawiających",
+      "ms": 2036
     },
     {
       "id": "bip_kk",
@@ -29,7 +29,7 @@
       "status": "ok",
       "count": 25,
       "note": "pobrano 25 ogłoszeń",
-      "ms": 816
+      "ms": 793
     },
     {
       "id": "oferteo",
@@ -37,7 +37,7 @@
       "status": "ok",
       "count": 0,
       "note": "pobrano 0 zleceń z 12 kategorii (problemy: zlecenia-na-elewacje-ocieplenia-izolacje: HTTPError; zlecenia-na-ocieplanie-budynkow: HTTPError; zlecenia-na-ocieplanie-elewacji: HTTPError)",
-      "ms": 11219
+      "ms": 10789
     }
   ]
 }
