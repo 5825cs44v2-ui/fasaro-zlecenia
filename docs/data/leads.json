@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-27T08:56:52.293808+00:00",
-  "count": 94,
+  "updated": "2026-11-27T10:01:59.703103+00:00",
+  "count": 93,
   "new_count": 0,
   "leads": [
     {
@@ -36,40 +36,6 @@
         "Słowa: remont, wykonczen, pomieszczen",
         "0 km od Kędzierzyna-Koźla",
         "termin 01.12.2026"
-      ]
-    },
-    {
-      "source": "bzp",
-      "source_label": "BZP / e-Zamówienia",
-      "external_id": "2026/BZP 00534690/01",
-      "title": "Wykonanie pochylni dla niepełnosprawnych w jednostkach oświatowych i innych (4 lokalizacje: PSP nr 6, PP nr 7, PP nr 10, Stadion Cisowa)",
-      "description": "Wykonanie pochylni dla niepełnosprawnych w jednostkach oświatowych i innych (4 lokalizacje: PSP nr 6, PP nr 7, PP nr 10, Stadion Cisowa)",
-      "url": "https://ezamowienia.gov.pl/mo-client-board/bzp/notice-details/08df409f-6e65-9b9c-c1c5-d50001940b9e",
-      "city": "Kędzierzyn-Koźle",
-      "distance_km": 0.0,
-      "published_at": "2026-11-12T09:29:20.590810+00:00",
-      "deadline": "2026-11-27T10:00:00+00:00",
-      "cpv": "45000000-7 (Roboty budowlane),34953000-2 (Rampy wejściowe),45453000-7 (Roboty remontowe i renowacyjne)",
-      "organization": "Gmina Kędzierzyn-Koźle - Urząd Miasta",
-      "budget": null,
-      "id": "81798a722f09",
-      "contact_free": true,
-      "contact_label": "Kontakt darmowy",
-      "is_new": false,
-      "first_seen": "2026-11-14T20:08:43.617585+00:00",
-      "score": 52,
-      "score_label": "Trafne",
-      "service": "remonty",
-      "service_label": "Remonty wnętrz",
-      "matched": [
-        "remont",
-        "lokal"
-      ],
-      "negatives": [],
-      "reasons": [
-        "Słowa: remont, lokal",
-        "0 km od Kędzierzyna-Koźla",
-        "termin 27.11.2026"
       ]
     },
     {
